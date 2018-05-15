@@ -1,5 +1,4 @@
 <div class="header__common">
-    <div class="clearfix">
         <div class="header-logo">
             <img src="images/logo.png" alt="logo">
         </div>
@@ -16,8 +15,7 @@
                 <a href="mailto:pftnoailles@free.fr">pftnoailles@free.fr</a>
             </div>
         </div>
-    </div>
-</div>
-<div class="header-img">
-    <img src="images/img-1.png" alt="">
+        <div class="header-img">
+            <img src="images/img-1.png" alt="">
+        </div>
 </div>
