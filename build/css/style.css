@@ -269,9 +269,6 @@ a{
 	display: none;
 }
 @media (max-width: 1920px) {
-	.header-img {
-		display: none;
-	}
 	.header-nav ul li {
 		font-size: 12px;
 		width: 140px;
@@ -333,6 +330,20 @@ a{
 	.header-nav ul li>ul {
 		top: 41px;
 	}
+	.header-img {
+		display: block;
+		height: 163px;
+	    overflow: hidden;
+	    max-width: 270px;
+	    width: 270px;
+	}
+	.header-img img {
+		max-width: none;
+		min-height: 100%;
+		min-width: 100%;
+		width: 100%;
+		height: 100%;
+	}
 }
 @media (max-width: 768px) {
 	.header-nav-mobButton {
@@ -353,7 +364,7 @@ a{
 	}
 	.header-info {
 		margin-bottom: 25px;
-		flex: none;
+		float: none;
 	}
 	.header-nav {
 		display: none;
@@ -402,5 +413,8 @@ a{
 	.header-nav ul li>ul li:hover {
 		background: #BCBBBC;
 		font-family: "Roboto-Bold";
+	}
+	.header-img {
+		display: none;
 	}
 }
