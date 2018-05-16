@@ -8,7 +8,8 @@
 	<script src="build/js/jquery-3.1.0.min.js"></script>
 	<script src="build/js/main.js"></script>
 </head>
-<body class="main-page">	
+<body class="main-page">
+	<div class="content">	
 	<header class="header">
 		<?php include "common-header.php" ?>
 	</header>
@@ -68,7 +69,7 @@
 			</li>
 		</ul>
 	</nav>
-		<div class="content">
+
 			<div class="content-text">une entreprise familliale au service des familles depuis 2012</div>
 			<div class="content-link-wrapper">
 				<div class="content-link">
